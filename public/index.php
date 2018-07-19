@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-Hello
-</body>
-</html>
+<?php 
+
+echo "Requested URL = " . $_SERVER['QUERY_STRING']; 
+
+?>
